@@ -74,4 +74,10 @@
 
     </platform>
 
+    <platform name="browser">
+        <js-module name="CanvasCamera" src="src/browser/src/CanvasCamera.ts">
+            <runs />
+        </js-module>
+    </platform>
+
 </plugin>
