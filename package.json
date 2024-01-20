@@ -1,22 +1,24 @@
 {
-  "name": "com.virtuoworks.cordova-plugin-canvascamera",
+  "name": "work.mfmii.cordova-plugin-canvascamera",
   "version": "1.2.2",
   "description": "A Cordova/Capacitor plugin to display video from the device's camera into an HTML canvas element.",
-  "repository": "https://github.com/VirtuoWorks/CanvasCameraPlugin.git",
+  "repository": "https://github.com/mf-Mii/CanvasCameraPlugin-fix.git",
   "main": "www/CanvasCamera.js",
   "typings": "www/CanvasCamera.d.ts",
   "files": [
     "www",
     "src/ios",
     "src/android",
+    "src/browser",
     "plugin.xml",
     "package.json"
   ],
   "cordova": {
-    "id": "com.virtuoworks.cordova-plugin-canvascamera",
+    "id": "work.mfmii.cordova-plugin-canvascamera-fix",
     "platforms": [
       "android",
-      "ios"
+      "ios",
+      "browser"
     ]
   },
   "keywords": [
@@ -45,6 +47,11 @@
       "name": "Sébastien Guillon",
       "email": "sebastien.guillon@virtuoworks.com",
       "url": "https://github.com/Sebastien-Guillon"
+    },
+    {
+      "name": "mf-Mii",
+      "email": "contact@mfmii.work",
+      "url": "https://github.com/mf-Mii"
     }
   ],
   "engines": {

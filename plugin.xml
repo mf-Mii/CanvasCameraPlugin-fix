@@ -48,7 +48,7 @@
 
       <config-file parent="/*" target="res/xml/config.xml">
         <feature name="CanvasCamera">
-          <param name="android-package" value="com.virtuoworks.cordova.plugin.canvascamera.CanvasCamera" />
+          <param name="android-package" value="work.mfmii.cordova.plugin.canvascamera.CanvasCamera" />
           <param name="onload" value="true" />
         </feature>
       </config-file>
