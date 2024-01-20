@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var exec = require('cordova/exec');
+var exec = require('cordova').exec;
 var CanvasCameraFrameImplementation = (function () {
     function CanvasCameraFrameImplementation(image, element, renderer) {
         this.ratio = 0;
